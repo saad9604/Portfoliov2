@@ -24,7 +24,7 @@ const Intro = () => {
         </div>
         <div>
           <p className="text-center lg:mt-0 mt-7 lg:translate-y-0 translate-y-5 font-extrabold lg:text-[32px] text-[25px] text-blue-500">Full Stack Development</p>
-          <div className="flex lg:gap-5 gap-3 mx-auto lg:mx-0 lg:h-[50px] h-[40px] mt-10 mb-9 ">
+          <div className="flex lg:gap-5 gap-3 mx-auto lg:mx-0 lg:h-[50px] h-[40px] mt-10 mb-9 -translate-x-3 ">
             <img src={html} className="shadow-md shadow-black rounded-full p-1" />
             <img src={css} className="shadow-md shadow-black rounded-full p-1" />
             <img src={javascript} className="shadow-md shadow-black  rounded-full p-1" />
