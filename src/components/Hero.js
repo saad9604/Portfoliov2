@@ -22,9 +22,13 @@ const Hero = () => {
           React.js , Express.js , MongoDB , Nodejs.
         </p>
         <div className="flex mt-3 gap-3 lg:pl-0 pl-7">
-          <img src={linkedin} />
-          <img src={github} />
-          <img src={insta} />
+          <a href="https://www.linkedin.com/in/saadsayyed29604/">
+            <img src={linkedin} />
+          </a>
+          <a href="https://github.com/saad9604">
+            <img src={github} />
+         </a>
+          
         </div>
         <div className="lg:pl-0 pl-7">
           <button
