@@ -13,7 +13,7 @@ const ProjectCard = ({ project }) => {
         </video>
       </div>
       <div className="flex flex-col gap-2">
-        <div className="flex gap-2 mx-auto lg:justify-between items-center">
+        <div className="flex gap-2 lg:mx-0 mx-auto lg:justify-between items-center">
           <p className="font-extrabold text-[1.5rem] name">{project.title}</p>
           <div className="flex items-center">
             <a target="_blank" href={project.link}>
