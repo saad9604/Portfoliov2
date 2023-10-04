@@ -8,10 +8,23 @@ import Navbar from "./components/Navbar";
 import Progress from "./components/Progress";
 import Project from "./components/Project";
 import Project2 from "./components/Project2";
+import { motion, useAnimation } from "framer-motion";
+import { useEffect } from "react";
 
 function App() {
+  const controls = useAnimation();
+
+  useEffect(() => {
+    controls.start({ opacity: 1, transition: { duration: 1.5 } });
+  }, []);
+
   return (
-    <div className="overflow-x-hidden">
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={controls}
+      exit={{ opacity: 0 }}
+      className="overflow-x-hidden"
+    >
       <div className="bg-blue-500">
         <Navbar />
         <Hero />
@@ -23,9 +36,8 @@ function App() {
       <Progress />
       <Contactus />
       {/* <Footer/> */}
-    </div>
+    </motion.div>
   );
 }
 
 export default App;
- 
