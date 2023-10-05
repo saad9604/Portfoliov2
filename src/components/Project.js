@@ -17,12 +17,12 @@ const Project = () => {
   return (
     <InView onChange={handleInView}>
       {({ inView, ref }) => (
-        <motion.div
+        <motion.div 
           ref={ref}
           initial={{ opacity: 0, y: 50 }}
           animate={controls}
         >
-          <p className="name text-4xl mb-5 font-extrabold text-center text-blue-500 lg:translate-y-0 -translate-y-28">Some of my Best Projects</p>
+          <p id="project"  className="name text-4xl mb-5 font-extrabold text-center text-blue-500 lg:translate-y-0 -translate-y-28">Some of my Best Projects</p>
           <div className="mx-auto mb-[40px] lg:pt-8 lg:translate-y-0 -translate-y-20">
             {projectsData.map((project) => (
               <ProjectCard key={project.id} project={project} />

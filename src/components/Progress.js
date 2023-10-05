@@ -19,7 +19,7 @@ const Progress = () => {
           initial="hidden"
           animate={inView ? "visible" : "hidden"}
           variants={animationVariants}
-          className="mt-[50px] mb-[80px] lg:flex-row flex-col flex lg:justify-around mx-auto"
+          className="mt-[50px] mb-[80px] lg:flex-row flex-col flex lg:justify-center lg:gap-20 mx-auto"
         >
           <div className="">
             <p className="name lg:ml-0 ml-5  text-[2rem] mb-7 font-extrabold text-blue-500">

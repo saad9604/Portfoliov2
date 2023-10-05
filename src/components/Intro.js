@@ -32,7 +32,7 @@ const controls = useAnimation();
             initial={{ opacity: 0, y: 50 }}
             animate={controls}
             className="lg:w-auto">
-          <div className="text-center mt-10 lg:mb-0 mb-8">
+          <div id="about" className="text-center mt-10 lg:mb-0 mb-8">
             <p className="mb-5 name font-extrabold text-[40px] text-blue-500 drop-shadow-2xl">
               What I do
             </p>

@@ -24,7 +24,7 @@ const Hero = () => {
     <motion.div
       initial={{ opacity: 0, y: 50 }}
       animate={controls}
-      className="h-[100vh] lg:flex flex lg:flex-row flex-col-reverse lg:justify-evenly items-center relative bottom-5"
+      className="h-[100vh] lg:flex flex lg:flex-row flex-col-reverse lg:justify-center items-center relative lg:bottom-16"
     >
       <div className="flex flex-col gap-5 mt-7 text-left">
         <p className="name text-[2.6rem] text-white font-extrabold lg:text-left text-center">

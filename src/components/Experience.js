@@ -10,13 +10,13 @@ import { InView } from 'react-intersection-observer';
 
 const Experience = () => {
   return (
-    <InView triggerOnce>
+    <InView>
       {({ inView, ref }) => (
         <div
           ref={ref}
           className={`flex flex-col items-center justify-center min-h-screen w-10/12 mx-auto lg:translate-y-0 -translate-y-20 ${inView ? 'animate-fadeIn' : ''}`}
         >
-          <motion.p
+          <motion.p id="experience"
             initial={{ opacity: 0, y: 50 }}
             animate={inView ? { opacity: 1, y: 0 } : { opacity: 0, y: 50 }}
             transition={{ duration: 1 }}
