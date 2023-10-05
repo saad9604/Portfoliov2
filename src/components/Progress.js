@@ -12,7 +12,7 @@ const Progress = () => {
   };
 
   return (
-    <InView triggerOnce>
+    <InView>
       {({ inView, ref }) => (
         <motion.div
           ref={ref}
