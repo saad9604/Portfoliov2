@@ -24,7 +24,7 @@ const controls = useAnimation();
   return (
     <InView onChange={handleInView}>
       {({ inView, ref }) => (
-        <div
+        <div id="about1"
                     ref={ref}
           className="w-10/12 mx-auto"
         >

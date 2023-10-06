@@ -12,11 +12,11 @@ const Experience = () => {
   return (
     <InView>
       {({ inView, ref }) => (
-        <div
+        <div id="experience"
           ref={ref}
           className={`flex flex-col items-center justify-center min-h-screen w-10/12 mx-auto lg:translate-y-0 -translate-y-20 ${inView ? 'animate-fadeIn' : ''}`}
         >
-          <motion.p id="experience"
+          <motion.p 
             initial={{ opacity: 0, y: 50 }}
             animate={inView ? { opacity: 1, y: 0 } : { opacity: 0, y: 50 }}
             transition={{ duration: 1 }}
