@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import github from "../assets/github.png";
 import insta from "../assets/insta.png";
 import linkedin from "../assets/linkedin.png";
-import pdfFile from "../assets/Saad_cv2.pdf";
+import pdfFile from "../assets/Saad_Resume.pdf";
 import { AiTwotoneFilePdf } from "react-icons/ai";
 import Lottie from "lottie-react";
 import anime1 from "../assets/anime1.json";
